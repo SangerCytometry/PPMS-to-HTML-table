@@ -1,6 +1,9 @@
-﻿#XDP sort statisitics extractor
+#XDP sort statisitics extractor
+ 
 Copyright (c) 2017 Genome Research Ltd.
+
 Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
+
 http://www.sanger.ac.uk/science/groups/cytometry-core-facility
 
 We are in the process of creating a dally schedule view to display on a TV in the lab.  This is the prototype that queries PPMS and produces a sorted CSV file of the day’s schedule.  From this you can create a live data link into an Excel spreadsheet, have them both update regularly and display them real time on screen.  The next stage will be to produce a graphical representation of this data.
