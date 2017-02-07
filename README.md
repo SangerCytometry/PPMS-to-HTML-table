@@ -1,4 +1,4 @@
-#XDP sort statisitics extractor
+#XDP sort statistics extractor
  
 Copyright (c) 2017 Genome Research Ltd.
 
