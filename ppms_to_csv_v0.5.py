@@ -2,7 +2,7 @@
 
 #PPMS to CSV
 #v0.5 Jan 2017
-#Python 3.5 (2016)
+#Python 2.7 (2016)
 #Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
 
 #This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
