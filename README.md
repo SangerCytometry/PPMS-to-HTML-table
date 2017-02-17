@@ -8,9 +8,8 @@ The CSV to HTML code has come from https://www.rosettacode.org/wiki/CSV_to_HTML_
 
 http://www.sanger.ac.uk/science/groups/cytometry-core-facility
 
-We are in the process of creating a dally schedule view to display on a TV in the lab.  This is the prototype that queries PPMS and produces a sorted CSV file of the day’s schedule.  From this you can create a live data link into an Excel spreadsheet, have them both update regularly and display them real time on screen.  The next stage will be to produce a graphical representation of this data.
+We are in the process of creating a dally schedule view to display on a TV in the lab.  This is the prototype that queries PPMS and produces a sorted html document.
 
-This script takes the daily bookings from PPMS and creates an ordered HTML table.
 You should contact Stratocore support about how to use the API system and remember it is best to test on a non production environment first.
 
 ##INSTRUCTIONS
