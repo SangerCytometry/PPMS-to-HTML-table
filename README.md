@@ -14,9 +14,9 @@ You should contact Stratocore support about how to use the API system and rememb
 ##INSTRUCTIONS
 Install the Python dependency 'Requests' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests'.  You cannot do this from within the python shell.
 
-On line 23 insert the API web address to your PPMS website between the ''
+On line 25 insert the API web address to your PPMS website between the ''
 
-On line 27 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
+On line 29 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
 
 Run the script and it produces a .html file
 
