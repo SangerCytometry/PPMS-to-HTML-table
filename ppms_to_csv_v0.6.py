@@ -19,6 +19,7 @@ import time
 import csv
 import operator
 import sys
+from cgi import escape
 
 #Insert your API address here
 url=''
