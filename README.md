@@ -3,6 +3,7 @@
 Copyright (c) 2017 Genome Research Ltd.
 
 Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
+
 The CSV to HTML code has come from https://www.rosettacode.org/wiki/CSV_to_HTML_translation#Python (GFDLv1.2)
 
 http://www.sanger.ac.uk/science/groups/cytometry-core-facility
