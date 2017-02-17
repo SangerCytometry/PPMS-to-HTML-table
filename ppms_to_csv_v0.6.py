@@ -32,7 +32,7 @@ headers = {'content-type': 'application/x-www-form-urlencoded'}
 r = requests.post(url, data=payload, headers=headers)
 f = open('todays_bookings.csv', 'w')
 f.write(r.text)
-f.close
+f.close()
 
 #Sorts the CSV file
 def csvsort(csvfilename, col1, col2):
