@@ -1,7 +1,7 @@
 #Copyright (c) 2017 Genome Research Ltd.
 
 #PPMS to CSV
-#v0.6 Jan 2017
+#v0.61 Jan 2017
 #Python 2.7 (2016)
 #Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
 #Big contribution from https://www.rosettacode.org (GFDLv1.2)
@@ -20,6 +20,10 @@ import csv
 import operator
 import sys
 from cgi import escape
+import os
+
+#insert the directory of the script
+os.chdir('')
 
 #Insert your API address here
 url=''
