@@ -22,7 +22,7 @@ import sys
 from cgi import escape
 import os
 
-#insert the directory of the script
+#insert the directory of the script. Remember that in windows you need to change the \ for /
 os.chdir('')
 
 #Insert your API address here
@@ -92,7 +92,36 @@ htmltxt = csv2htmlextra(csvtxt, True,
                              TBODY=' bgcolor="White"' 
                              )
                         )
+#This section seaches for instrument names and changes the colours of that row.
+newhtml=[]
+htmltxt=htmltxt.splitlines()
+for line in htmltxt:
+    if 'BD Fortessa 1' in line:
+        newhtml.append(line.replace("White","LightSalmon"))
+    elif 'BD Fortessa 2' in line:
+        newhtml.append(line.replace("White","LightPink"))    
+    elif 'BDLSRII' in line:
+        newhtml.append(line.replace("White","SeaShell"))    
+    elif 'Cytoflex' in line:
+        newhtml.append(line.replace("White","LemonChiffon"))    
+    elif 'Sony SH800 1' in line:
+        newhtml.append(line.replace("White","HoneyDew"))   
+    elif 'Sony SH800 2' in line:
+        newhtml.append(line.replace("White","MistyRose")) 
+    elif 'INFLUX' in line:
+        newhtml.append(line.replace("White","PaleGreen"))         
+    elif 'XDP' in line:
+        newhtml.append(line.replace("White","LightCyan"))    
+    elif 'Legacy' in line:
+        newhtml.append(line.replace("White","BlanchedAlmond"))     
+    else:
+        newhtml.append(line)
+newhtml=str(newhtml)
+newhtml=newhtml.replace("', '","").replace("['","").replace("']","")
+print(newhtml)
+
+#Creates the html file
 f = open('todaysbookings.html', 'w')
-f.write(htmltxt)
+f.write(newhtml)
 f.close()
 
