@@ -15,13 +15,15 @@ You should contact Stratocore support about how to use the API system and rememb
 ##INSTRUCTIONS
 Install the Python dependency 'Requests' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests'.  You cannot do this from within the python shell.
 
+On line 26 add the folder name of where the script resides.  This is to allow the script to run from the Windows Task Scheduler.
+
 On line 29 insert the API web address to your PPMS website between the ''
 
 On line 33 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
 
 Run the script and it produces a .html file
 
-Load this in a browser and 'auo-refresh' the page to keep it up to date.  (look for plugins or extensions)
+Load this in a browser and 'auto-refresh' the page to keep it up to date.  (look for plugins or extensions)
 
 Use windows task scheduler to run the python script every 10 minutes to keep the CSV file up to date.
 
