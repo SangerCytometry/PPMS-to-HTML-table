@@ -22,7 +22,7 @@ import sys
 from cgi import escape
 import os
 
-#insert the directory of the script
+#insert the directory of the script. Remember that in windows you need to change the \ for /
 os.chdir('')
 
 #Insert your API address here
@@ -92,6 +92,7 @@ htmltxt = csv2htmlextra(csvtxt, True,
                              TBODY=' bgcolor="White"' 
                              )
                         )
+#This section seaches for instrument names and changes the colours of that row.
 newhtml=[]
 htmltxt=htmltxt.splitlines()
 for line in htmltxt:
@@ -119,6 +120,7 @@ newhtml=str(newhtml)
 newhtml=newhtml.replace("', '","").replace("['","").replace("']","")
 print(newhtml)
 
+#Creates the html file
 f = open('todaysbookings.html', 'w')
 f.write(newhtml)
 f.close()
