@@ -1,4 +1,4 @@
-#PPMS to CSV (now with added HTML)
+# PPMS to CSV (now with added HTML)
  
 Copyright (c) 2017 Genome Research Ltd.
 
@@ -12,7 +12,7 @@ We are in the process of creating a dally schedule view to display on a TV in th
 
 You should contact Stratocore support about how to use the API system and remember it is best to test on a non production environment first.
 
-##INSTRUCTIONS
+## INSTRUCTIONS
 Install the Python dependency 'Requests' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests'.  You cannot do this from within the python shell.
 
 On line 26 add the folder name of where the script resides.  This is to allow the script to run from the Windows Task Scheduler.
