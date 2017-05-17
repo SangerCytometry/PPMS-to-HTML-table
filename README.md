@@ -21,6 +21,8 @@ On line 29 insert the API web address to your PPMS website between the ''
 
 On line 33 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
 
+Row 96 onwards should be changed to match your instrumentation.  These lines make the table coloured.
+
 Run the script and it produces a .html file
 
 Load this in a browser and 'auto-refresh' the page to keep it up to date.  (look for plugins or extensions)
