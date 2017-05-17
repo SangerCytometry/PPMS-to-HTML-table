@@ -10,7 +10,7 @@ http://www.sanger.ac.uk/science/groups/cytometry-core-facility
 
 We have a daily schedule TV in the lab and have produced a script to run this.  The script queries the PPMS calendar system and produces a sorted HTML file of the day’s schedule.
 
-You should contact Stratocore support about how to use the API system and remember it is best to test on a non production environment first.
+You should contact Stratocore support about how to use the API system.
 
 ## INSTRUCTIONS
 Install the Python dependency 'Requests' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests'.  You cannot do this from within the python shell.
