@@ -34,4 +34,4 @@ Use windows task scheduler to run the python script every 10 minutes to keep the
 
 The file ppms_to_csv_sched.bat can be used to do this.  Just replace the first portion with the location of your python installation and the second with the location of your script.
 
-We also run a sideshow of picture posters on the same screen as shown above using IrfanView. www.irfanview.com/ 
+We also run a slideshow of picture posters on the same screen as shown above using IrfanView. www.irfanview.com/ 
