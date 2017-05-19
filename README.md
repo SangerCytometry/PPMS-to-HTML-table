@@ -1,4 +1,4 @@
-# PPMS to CSV (now with added HTML)
+# PPMS to HTML table
 
 Copyright (c) 2017 Genome Research Ltd.
 
