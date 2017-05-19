@@ -1,5 +1,5 @@
 # PPMS to CSV (now with added HTML)
- 
+
 Copyright (c) 2017 Genome Research Ltd.
 
 Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
@@ -11,6 +11,9 @@ http://www.sanger.ac.uk/science/groups/cytometry-core-facility
 We have a daily schedule TV in the lab and have produced a script to run this.  The script queries the PPMS calendar system and produces a sorted HTML file of the day’s schedule.
 
 You should contact Stratocore support about how to use the API system.
+
+## Example
+![alt text](https://github.com/SangerCytometry/ppms2csv/blob/master/PPMS%20calendar.png)
 
 ## INSTRUCTIONS
 Install the Python dependency 'Requests' and 'petl' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/.  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests' (or petl).  You cannot do this from within the python shell.
@@ -30,3 +33,5 @@ Load this in a browser and 'auto-refresh' the page to keep it up to date.  (look
 Use windows task scheduler to run the python script every 10 minutes to keep the CSV file up to date.
 
 The file ppms_to_csv_sched.bat can be used to do this.  Just replace the first portion with the location of your python installation and the second with the location of your script.
+
+We also run a sideshow of picture posters on the same screen as shown above using IrfanView. www.irfanview.com/ 
