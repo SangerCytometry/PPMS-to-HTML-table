@@ -13,7 +13,7 @@ We have a daily schedule TV in the lab and have produced a script to run this.  
 You should contact Stratocore support about how to use the API system.
 
 ## Example
-![alt text](https://github.com/SangerCytometry/ppms2csv/blob/master/PPMS%20calendar.png)
+![alt text](PPMS%20calendar.png)
 
 ## INSTRUCTIONS
 Install the Python dependency 'Requests' and 'petl' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/.  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests' (or petl).  You cannot do this from within the python shell.
