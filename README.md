@@ -21,7 +21,7 @@ On line 29 insert the API web address to your PPMS website between the ''
 
 On line 33 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
 
-The alst large section of the script should be changed to match your instrumentation.
+The last large section of the script should be changed to match your instrumentation.
 
 Run the script and it produces a .html file
 
@@ -30,4 +30,3 @@ Load this in a browser and 'auto-refresh' the page to keep it up to date.  (look
 Use windows task scheduler to run the python script every 10 minutes to keep the CSV file up to date.
 
 The file ppms_to_csv_sched.bat can be used to do this.  Just replace the first portion with the location of your python installation and the second with the location of your script.
-
