@@ -83,7 +83,7 @@ def csv2htmlextra(txt, header=True, attr=None):
     return htmltxt
 
 htmltxt = csv2htmlextra(csvtxt, True,
-                        dict(TABLE=' border="1" summary="csv2html extra program output"',
+                        dict(TABLE=' border="1" width="100%" summary="csv2html extra program output"',
                              THEAD=' bgcolor="White "',
                              TBODY=' bgcolor="White"' 
                              )
