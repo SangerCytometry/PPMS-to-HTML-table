@@ -18,11 +18,11 @@ You should contact Stratocore support about how to use the API system.
 ## INSTRUCTIONS
 Install the Python dependency 'Requests' and 'petl' using PIP in the python command line.  http://docs.python-requests.org/en/master/user/install/.  Do this by opening the command prompt, navigating to your python\scripts directory (i.e. C:\Python27\Scripts) and typeing 'pip install requests' (or petl).  You cannot do this from within the python shell.
 
-On line 26 add the folder name of where the script resides.  This is to allow the script to run from the Windows Task Scheduler.
+On line 21 add the folder name of where the script resides.  This is to allow the script to run from the Windows Task Scheduler.
 
-On line 29 insert the API web address to your PPMS website between the ''
+On line 24 insert the API web address to your PPMS website between the ''
 
-On line 33 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
+On line 28 add the API key and platform ID between the two ''.  The platform ID is the pf?= number found in the address bar when you log into PPMS.
 
 The last large section of the script should be changed to match your instrumentation.
 
