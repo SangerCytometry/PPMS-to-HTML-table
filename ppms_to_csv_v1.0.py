@@ -1,14 +1,9 @@
-#Copyright (c) 2017 Genome Research Ltd.
-
 #PPMS to CSV
 #v1.0 May 2017
 #Python 2.7 (2016)
 #Author : Christopher Hall, Wellcome Trust Sanger Institute, christopher.hall@sanger.ac.uk
 #Big contribution from https://www.rosettacode.org (GFDLv1.2)
-
-#This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
-#This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-#You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.
+#License : GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
 
 #This script takes the daily bookings from PPMS and creates an ordered CSV file and then an HTML file to load in a browser
 #You should contact Stratocore support about how to use there API system and remember it is best to test on a non production environment first
