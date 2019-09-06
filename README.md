@@ -1,3 +1,5 @@
+This page has been archived and further updates will be on Christopher’s [GitHub page]( https://github.com/hally166/PPMS-to-HTML-table).
+
 # PPMS to HTML table
 
 Copyright (c) 2017 Genome Research Ltd.
